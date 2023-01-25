@@ -8,6 +8,6 @@
 * As a user, I can delete a flat from the website, in case I don’t want to rent it anymore
 
 
-##things to improve:
+## things to improve:
 - flat show page, add booking card
 - add filter option
