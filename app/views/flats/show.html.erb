@@ -13,5 +13,22 @@
         <div class="map" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=<%= @flat.address %>&zoom=13&scale=2&size=1000x1000&maptype=roadmap&markers=color:red%7C<%= @flat.address %>&key=AIzaSyBe_chFq5b9BvCUgfQVK2Ng66zQgrWUrgQ')"></div>
       </div>
     </div>
+    <div class="col-4">
+      <div class="flat-show-card">
+        <h5>Book this place!</h5>
+
+        <form action="">
+          <div class="input-group">
+            <span class="input-group-text" id="start-date">From:</span>
+            <input type="text" class="form-control" placeholder="01/01/2023" aria-label="start-date" aria-describedby="start-date-label">
+          </div>
+          <div class="input-group mt-2">
+            <span class="input-group-text" id="end-date">To:</span>
+            <input type="text" class="form-control" placeholder="04/01/2023" aria-label="end-date" aria-describedby="start-date-label">
+          </div>
+          <input type="submit" value="Book" class="btn btn-success mt-2" style="width: 100%">
+        </form>
+      </div>
+    </div>
   </div>
 </div>
